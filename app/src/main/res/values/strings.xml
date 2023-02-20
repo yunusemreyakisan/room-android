@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">RoomDB</string>
+    <string name="kullanicilar">Kullanıcılar</string>
+    <string name="add_user_fab">ADD USER FAB</string>
+    <string name="adiniz">Adınız</string>
+    <string name="soyadiniz">Soyadınız</string>
+    <string name="yeni_kullanici_ekle">Yeni kullanıcı ekle</string>
+    <string name="ekle">Ekle</string>
+</resources>
