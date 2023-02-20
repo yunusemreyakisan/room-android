@@ -6,6 +6,10 @@ import androidx.room.Database;
 import androidx.room.Room;
 import androidx.room.RoomDatabase;
 
+/**
+ @author yunusemreyakisan
+ */
+
 /*
 Database() ifadesi ile DB olusturuyoruz.
 Olusturdugumuz sinifi RoomDatabase sinifindan extends ediyoruz.
@@ -23,5 +27,4 @@ public abstract class AppDatabase extends RoomDatabase {
         }
         return INSTANCE;
     }
-
 }

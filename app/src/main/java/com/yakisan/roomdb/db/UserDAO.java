@@ -10,7 +10,6 @@ import java.util.List;
 //Dao oldugunu belirtmek icin kullanilan annotation
 @Dao
 public interface UserDAO {
-
     @Query("SELECT * FROM user")
     List<User> tumKullanicilariGetir();
 
@@ -21,5 +20,4 @@ public interface UserDAO {
     //deleteUser methodu ile kullanıcı silinmesi saglanacak.
     @Delete
     void deleteUser(User user);
-
 }

@@ -16,5 +16,4 @@ public class User {
 
     @ColumnInfo(name = "Last_Name")
     public String lastName;
-
 }
