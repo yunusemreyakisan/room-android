@@ -8,9 +8,9 @@
 - RxJava, LiveData ve Kotlin Coroutines ile kolay bir şekilde entegre oluyor.
 
 ✅ Room'da üç ana bileşen vardır:
-- Veritabanını tutan ve uygulamanızın kalıcı verilerine yönelik temel bağlantı için ana erişim noktası görevi gören veritabanı sınıfı (AppDatabase)
-- Uygulamanızın veritabanındaki tabloları temsil eden veri varlıkları (User Entity)
-- Uygulamanızın veritabanındaki verileri sorgulamak, güncellemek, eklemek ve silmek için kullanabileceği yöntemler sağlayan veri erişim nesneleri (DAO'lar)
+- **@Database** -> Veritabanını tutan ve uygulamanızın kalıcı verilerine yönelik temel bağlantı için ana erişim noktası görevi gören veritabanı sınıfı (AppDatabase)
+- **@Entity** -> Uygulamanızın veritabanındaki tabloları temsil eden veri varlıkları (User Entity)
+- **@DAO** -> Uygulamanızın veritabanındaki verileri sorgulamak, güncellemek, eklemek ve silmek için kullanabileceği yöntemler sağlayan veri erişim nesneleri (DAO'lar)
 
 ## 📱 App Database   
 AppDatabase, veritabanı yapılandırmasını tanımlar ve kalıcı verilere uygulamanın ana erişim noktası olarak hizmet eder. 
